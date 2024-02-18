@@ -1,4 +1,4 @@
-.adminDrawerLogo img { content: url(https://i.imgur.com/7f2I2GS.png) !important; } imgLogoIcon { content: url(https://i.imgur.com/7f2I2GS.png) !important; } .pageTitleWithLogo { background-image: url(https://i.imgur.com/vD7e6mb.png) !important; }
+.adminDrawerLogo img { content: url(https://i.imgur.com/7f2I2GS.png) !important; } imgLogoIcon { content: url(https://i.imgur.com/7f2I2GS.png) !important; } .pageTitleWithLogo { background-image: url(https://i.ibb.co/vw8h5TV/Alien-24.webp) !important; }
 .section0 .sectionTitle {
     display: none!important;
 }
