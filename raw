@@ -1,0 +1,126 @@
+.adminDrawerLogo img { content: url(https://i.imgur.com/7f2I2GS.png) !important; } imgLogoIcon { content: url(https://i.imgur.com/7f2I2GS.png) !important; } .pageTitleWithLogo { background-image: url(https://i.imgur.com/vD7e6mb.png) !important; }
+.section0 .sectionTitle {
+    display: none!important;
+}
+.section0 .itemsContainer {
+  display:none;
+}
+/*----------------------------------------------Center the play and pause rewind and fast forward button (MOBILE)*/
+.layout-mobile
+.btnPause {
+    position: fixed;
+    top: 49%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+       padding: 10px;
+}
+.layout-mobile
+.material-icons.pause:before {
+    font-size: 2.1em;
+}
+.layout-mobile
+.xlargePaperIconButton.material-icons.play_arrow:before {
+    font-size: 3.5em;
+}
+.layout-mobile
+.btnRewind {
+    position: fixed;
+    top: 49%;
+    left: 24%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+       padding: 10px;
+}
+.layout-mobile
+.btnFastForward {
+    position: fixed;
+    top: 49%;
+    left: 74%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+       padding: 10px;
+}
+.layout-mobile
+.xlargePaperIconButton.material-icons.fast_forward {
+    font-size: 3.5em;
+}
+.layout-mobile
+.xlargePaperIconButton.material-icons.fast_rewind {
+    font-size: 3.5em;
+}
+.layout-mobile
+@media (max-width: 50em) {
+.videoOsdBottom .btnFastForward, .videoOsdBottom .btnRewind {
+  display: block !important;
+}
+}
+/*----------------------------------------------Center the play and pause rewind and fast forward button (DESKTOP)*/
+.layout-desktop
+.btnPause {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+   padding: 10px;
+}
+.layout-desktop
+.material-icons.pause:before {
+    font-size: 2.1em;
+}
+.layout-desktop
+.xlargePaperIconButton.material-icons.play_arrow:before {
+    font-size: 3.5em;
+}
+.layout-desktop
+.btnRewind {
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    padding: 10px;
+}
+.layout-desktop
+.btnFastForward {
+    position: fixed;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    padding: 10px;
+}
+.layout-desktop
+.xlargePaperIconButton.material-icons.fast_forward {
+    font-size: 3.5em;
+}
+.layout-desktop
+.xlargePaperIconButton.material-icons.fast_rewind {
+    font-size: 3.5em;
+}
+.layout-desktop
+@media (max-width: 50em) {
+.videoOsdBottom .btnFastForward, .videoOsdBottom .btnRewind {
+  display: block !important;
+}
+}
+.headerSyncButton {display: none;}
+.material-icons.person {display: none;}
+.btnUserRating{display:none;} button[is="emby-ratingbutton"]{display:none;} .noHomeButtonHeader button[data-index="1"]{display:none;} button[data-index="3"]{display:none;}
+.btnPlayTrailer{display:none;}
+.btnQuick {
+    display:none!important;
+}
+#loginPage .raised.cancel.block.btnForgotPassword.emby-button {
+    display: none
+}
+.lnkQuickConnectPreferences{
+   display:none!important;
+ }
+ .lnkMyProfile{
+    display:none!important;
+ }
+ .lnkControlsPreferences{
+     display:none!important;
+ }
